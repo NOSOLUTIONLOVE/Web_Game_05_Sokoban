@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.sw?
+
+# Logs
+*.log
+
+# Env / secrets
+.env
+.env.*
+*.pem
+id_rsa*
+credentials.json
+secrets.*
