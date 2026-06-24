@@ -10,17 +10,17 @@
 [![Tests](https://img.shields.io/badge/tests-84%20passed-brightgreen?style=for-the-badge)](#-testing)
 [![Version](https://img.shields.io/badge/version-0.1.0-blueviolet?style=for-the-badge)](#-roadmap)
 
+**[English](README.md)** · **[中文](README.zh-CN.md)**
+
 <br />
 
 [Live Demo](#-live-demo) · [Features](#-features) · [Quick Start](#-quick-start) · [Architecture](#-architecture) · [Documentation](#-documentation) · [License](#-license)
-
-**简体中文** · [English](./README.md)
 
 </div>
 
 ---
 
-## About
+## 🌟 About
 
 Sokoban Web is a browser-native reimplementation of the iconic warehouse-pusher puzzle designed by Hiroyuki Imabayashi in 1981. The player controls a warehouse worker who must push every crate onto a target footprint — crates can only be pushed (never pulled), one at a time, and the level is won when every crate is settled.
 
@@ -35,7 +35,7 @@ This project is the fifth entry in a personal **Web_Game_01** learning library (
 
 ---
 
-## Live Demo
+## 🎮 Live Demo
 
 > Deployment link will be updated here once the project is published to Vercel.
 >
@@ -43,7 +43,7 @@ This project is the fifth entry in a personal **Web_Game_01** learning library (
 
 ---
 
-## Features
+## 🎯 Features
 
 ### Gameplay
 
@@ -75,7 +75,7 @@ This project is the fifth entry in a personal **Web_Game_01** learning library (
 
 ---
 
-## Game Rules
+## 🎹 Game Rules
 
 1. You are a warehouse worker.
 2. Push every crate onto a target footprint (the yellow marks).
@@ -86,7 +86,7 @@ This project is the fifth entry in a personal **Web_Game_01** learning library (
 
 ---
 
-## Quick Start
+## 🚀 Quick Start
 
 ```bash
 # 1. Clone
@@ -111,7 +111,7 @@ pnpm build && pnpm preview
 
 ---
 
-## Installation
+## 📦 Installation
 
 **Prerequisites**
 
@@ -129,7 +129,7 @@ pnpm install
 
 ---
 
-## Usage
+## 📖 Usage
 
 ### Development
 
@@ -165,7 +165,7 @@ The repository includes a [`sokoban/vercel.json`](./sokoban/vercel.json) with an
 
 ---
 
-## Architecture
+## 🏛️ Architecture
 
 The project follows a strict **three-layer separation** to keep the game engine pure, testable, and decoupled from React.
 
@@ -245,7 +245,7 @@ Web_Game_05_Sokoban/
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 | Layer | Choice | Why |
 | --- | --- | --- |
@@ -264,7 +264,7 @@ Web_Game_05_Sokoban/
 
 ---
 
-## Testing
+## 🧪 Testing
 
 The engine layer is fully unit-tested with **Vitest**. All 84 tests pass.
 
@@ -289,7 +289,7 @@ Test files live next to the source they cover, under [`sokoban/src/engine/__test
 
 ---
 
-## Performance
+## ⚡ Performance
 
 | Metric | Measured |
 | --- | --- |
@@ -301,7 +301,7 @@ Test files live next to the source they cover, under [`sokoban/src/engine/__test
 
 ---
 
-## Documentation
+## 📖 Documentation
 
 The `sokoban/docs/` folder contains six design documents (written in Chinese) that walk through the full project lifecycle — from立项 to deployment.
 
@@ -318,7 +318,7 @@ The original product requirements document lives at [`PRD-推箱子.md`](./PRD-�
 
 ---
 
-## Roadmap
+## 🗺️ Roadmap
 
 - [x] MVP — 20 levels, undo/redo, deadlock detection, Canvas renderer
 - [x] Audio — 5 synthesized sound effects
@@ -331,7 +331,7 @@ The original product requirements document lives at [`PRD-推箱子.md`](./PRD-�
 
 ---
 
-## Acknowledgements
+## 🙏 Acknowledgements
 
 - **Sokoban** — Designed by Hiroyuki Imabayashi (1981), published by Thinking Rabbit.
 - **XSB level format** — The community standard, documented at [sokobano.de](https://sokobano.de/).
@@ -341,7 +341,7 @@ The original product requirements document lives at [`PRD-推箱子.md`](./PRD-�
 
 ---
 
-## License
+## 📄 License
 
 This project is released under the **MIT License**.
 
@@ -351,7 +351,8 @@ This project is released under the **MIT License**.
 
 <div align="center">
 
-**Project library:** Web_Game_01 · Sokoban #5
-**Last updated:** 2026-06-23
+**If this project helps you, please give it a ⭐ Star!**
+
+[GitHub](https://github.com/NOSOLUTIONLOVE/Web_Game_05_Sokoban) · [Issue Feedback](https://github.com/NOSOLUTIONLOVE/Web_Game_05_Sokoban/issues)
 
 </div>
